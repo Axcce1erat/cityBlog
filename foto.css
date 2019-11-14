@@ -5,7 +5,7 @@ body {
     background-color: lightblue;
     border: 1    
 }
-.object-fit {
-    object-fit: fill;
+.fit-img {
+    object-position: center;
   }
 
