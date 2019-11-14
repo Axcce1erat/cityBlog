@@ -86,4 +86,6 @@
   .news span:hover + ul {
     animation-play-state: paused;
   }
-  
+  #abstandNav{
+    padding-top: 25px;
+}
