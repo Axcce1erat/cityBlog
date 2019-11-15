@@ -17,10 +17,9 @@
 </head>
 
 <body>
-    <header>
-    </header>
+    <header class="container">
     <!-- Thorstens part Anfang>-->
-    <div class="container">
+    <div>
         <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
@@ -95,28 +94,36 @@
     </div>
 
     <!-- Navigation -->
-    <div class="container">
-        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#locations">Locations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#newsFeed">Newsfeed</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contactUs">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#aboutUs">About us</a>
-                </li>
-            </ul>
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" type="text" placeholder="Suchen">
-                <button class="btn btn-success" type="submit">Suchen</button>
-            </form>
+    <div>
+        <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locations">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newsFeed">Newsfeed</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutUs">About us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
     </div>
+    </header>
 
 
     <!-- Thorstens part Ende-->
@@ -249,11 +256,11 @@
 
     <!-- Markus' part Anfang -->
 
-    <div class="container-fluid">
+    <div class="container">
         <a id="aboutUs"></a>
         <h3>About Us</h3>
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-xs-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card" style="max-width: 18rem">
                     <div class="wrapper">
                         <img class="card-img-top" src="img/Axel.jpg" alt="Axel">
@@ -264,7 +271,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-xs-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card" style="max-width: 18rem">
                     <img class="card-img-top" src="img/Berthold.jpg" alt="Berthold">
                     <div class="card-body">
@@ -273,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-xs-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card" style="max-width: 18rem">
                     <img class="card-img-top" src="img/Thorsten.jpg" alt="Thorsten">
                     <div class="card-body">
@@ -282,7 +289,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-xs-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card" style="max-width: 18rem">
                     <img class="card-img-top" src="img/Markus.jpg" alt="Markus">
                     <div class="card-body">
@@ -334,33 +341,6 @@
                     </ul>
                 </div>
             </div>
-<<<<<<< HEAD
-=======
-            <hr class="clearfix w-100 d-md-none">
-            <div class="col-md-3 mx-auto">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social Media</h5>
-      
-              <ul class="list-unstyled">
-                <li>
-                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Visit%20Darmstadt"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?t=Visit%20Darmstadt"<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/wildocoda/"<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-                    
-                </li>
-              </ul>
-        </div>
-            <hr class="clearfix w-100 d-md-none">
-            <div class="col-md-3 mx-auto">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">AGB</h5>
-      
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://www.google.com/search?client=ubuntu&channel=fs&q=AGBs&ie=utf-8&oe=utf-8">Our ABG</a>
-                </li>
-              </ul>
-            </div>      
-          </div>      
->>>>>>> ff68d388e088d255acaab4848a0778856f2d7e53
         </div>
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
             <a href="">About us</a>
